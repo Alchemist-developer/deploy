@@ -22,7 +22,7 @@ body.onload = async () => {
        
         <article  class="bg-dark text-light bg-gradient evento card d-flex justify-content-between align-content-center p-5 m-3" style="min-height: 500px; border-radius:20px;">
         <div>    
-        <h2 id="nomeData">${conteudoResposta[i].name} - ${finalDate}</h2><hr>
+        <h2 id="nomeData">${conteudoResposta[i].name} ${finalDate}</h2><hr>
             <h5 id="atracoes" class="">${conteudoResposta[i].attractions}</h5>
             <p id="descricao" style="text-overflow: ellipsis;">${conteudoResposta[i].description}</p>
             </div>  
